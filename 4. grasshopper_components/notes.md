@@ -17,6 +17,5 @@ for i in range(points.BranchCount):
     nCurve = ghc.NurbsCurve(points_list, 3, False)
     curves.append(nCurve.curve)
 
-
 a = ghc.Loft(curves)
 ```
